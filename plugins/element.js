@@ -1,0 +1,55 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  Card,
+  Input,
+  FormItem,
+  Message,
+  Container,
+  Header,
+  Aside,
+  Main,
+  Footer,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Icon,
+  Breadcrumb,
+  BreadcrumbItem,
+  Table,
+  TableColumn,
+  Pagination,
+  Dialog,
+  DatePicker,
+  TimePicker,
+  Radio,
+  Tree
+} from 'element-ui'
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(Card)
+Vue.use(Input)
+Vue.use(FormItem)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Footer)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Icon)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(DatePicker)
+Vue.use(TimePicker)
+Vue.use(Radio)
+Vue.use(Tree)
+Vue.prototype.$message = Message
